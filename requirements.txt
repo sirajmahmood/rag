@@ -1,0 +1,13 @@
+# The project runs FULLY OFFLINE with zero dependencies — none of this is
+# required for the default mock backend.
+#
+# Install these only if you want to use real models:
+#
+#   pip install -r requirements.txt
+#
+# Then:
+#   export ANTHROPIC_API_KEY=sk-ant-...   # enables the real Claude LLM
+#   export USE_ST=1                       # enables real neural embeddings
+
+anthropic>=0.40.0
+sentence-transformers>=2.2.0
